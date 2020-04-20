@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="442.0" prefWidth="729.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_ujji.AddCustomerController">
+   <children>
+      <Label layoutX="181.0" layoutY="14.0" prefHeight="62.0" prefWidth="367.0" text="Customer Information" textFill="#058258">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="259.0" layoutY="86.0" prefHeight="50.0" prefWidth="346.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pass" layoutX="259.0" layoutY="145.0" prefHeight="50.0" prefWidth="346.0" promptText="ENTER PASSWORD">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="passconf" layoutX="259.0" layoutY="202.0" prefHeight="50.0" prefWidth="346.0" promptText="RE-TYPE PASSWORD">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="balance" layoutX="259.0" layoutY="262.0" prefHeight="50.0" prefWidth="345.0" promptText="ATLEAST $100">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <Button layoutX="140.0" layoutY="334.0" mnemonicParsing="false" onAction="#goback" prefHeight="40.0" prefWidth="143.0" text="Go Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="498.0" layoutY="334.0" mnemonicParsing="false" onAction="#addcustomer" prefHeight="40.0" prefWidth="143.0" text="Create Customer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="message" layoutX="192.0" layoutY="388.0" prefHeight="40.0" prefWidth="467.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="388.0" prefHeight="40.0" prefWidth="80.0" text="Status:">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="94.0" prefHeight="27.0" prefWidth="158.0" text="Username:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="153.0" prefHeight="27.0" prefWidth="158.0" text="Set Password:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="270.0" prefHeight="34.0" prefWidth="194.0" text="Balance ($) :">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="210.0" prefHeight="34.0" prefWidth="194.0" text="Confirm Password:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

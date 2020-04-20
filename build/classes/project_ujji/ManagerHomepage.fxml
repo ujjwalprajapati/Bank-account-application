@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_ujji.ManagerHomepageController">
+   <effect>
+      <ColorAdjust />
+   </effect>
+   <children>
+      <Label layoutX="136.0" layoutY="31.0" prefHeight="74.0" prefWidth="357.0" text="MANAGER PORTAL" textFill="#151fb0">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="185.0" layoutY="146.0" mnemonicParsing="false" onAction="#addCustomer" prefHeight="62.0" prefWidth="225.0" text="Add Customer" textFill="#011921">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="230.0" mnemonicParsing="false" onAction="#deleteCustomer" prefHeight="62.0" prefWidth="225.0" text="Remove Customer" textFill="#011921">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="253.0" layoutY="336.0" mnemonicParsing="false" onAction="#Logout" prefHeight="38.0" prefWidth="95.0" text="Logout">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

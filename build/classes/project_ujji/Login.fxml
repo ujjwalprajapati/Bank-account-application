@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="332.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_ujji.LoginController">
+   <children>
+      <Label layoutX="93.0" layoutY="45.0" prefHeight="54.0" prefWidth="442.0" text="WELCOME TO RYERSON BANK" textFill="#2913b5">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="62.0" layoutY="158.0" mnemonicParsing="false" onAction="#ManagerLogin" prefHeight="90.0" prefWidth="190.0" text="Manger Login">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="346.0" layoutY="158.0" mnemonicParsing="false" onAction="#CustomerLogin" prefHeight="90.0" prefWidth="190.0" text="Customer Login">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
